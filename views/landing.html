@@ -1,0 +1,85 @@
+<script src="js/jquery.min.js"></script>
+
+<link rel="stylesheet" href="css/banner.css">
+
+
+
+<div class="landingcontent">
+  <div class="info">
+  <div class="row">
+      <div class="headline">
+        <hr/>
+          <section>
+            <span>Lorem ipsum dolor sit amet,</span> consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.          </section>
+        <hr/>
+      </div>
+    </div>
+    <div class="row bio">
+      
+        <div class="large-5 columns biopic">
+          <img src="http://placehold.it/80x120"/>
+        </div>
+        <div class="large-7 columns">
+          <section>
+            <p><span>Lorem ipsum dolor sit amet</span></p>
+            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. 
+            </p>
+            <p>Ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. 
+            </p>
+            <p>Integer fermentum, justo non venenatis ornare, neque nisi porttitor erat, quis mollis dolor mauris sed libero. Suspendisse aliquam euismod erat, in feugiat odio accumsan non. Mauris imperdiet sollicitudin pellentesque. Ut facilisis luctus risus, in congue lorem molestie sed. </p>
+          </section>
+        </div>
+
+
+       
+    </div>
+  </div>
+    <div class="recentob">
+      <div class="obheader">
+      <div class="row ">
+        <p>Recent Obituaries</p>
+        
+      </div>
+
+    </div>
+    <div class="obholder">
+    <div class="row ">
+        <div class="obrepeat">
+        <div class="large-2 small-3 columns panel" ng-repeat="people in recent">
+          
+          <img ng-src="{{people.imgUrl}}"> <p>{{people.name}}</p><p>{{people.date | date:'MM/dd/yyyy' }}</p>
+        
+        </div>
+      </div>
+      </div>
+    </div>
+
+    <div class="mail">
+      <div class="row">
+          <div class="large-5 columns">
+            
+          <h5><img src="img/mailico.png" width="40px">Sign up for our obituaries e-mailing list </h5>
+
+        </div>
+        <div class="large-7 columns">
+          <div class="large-8 columns"><input type="text" placeholder="Enter your email"></div>
+        
+       
+          <div class="large-4 columns"><input class="postfix button expand" type="submit" value="Sign Up"></div>
+        
+        </div>
+      
+    </div>
+
+</div>
+
+    <script>
+    jQuery(document).ready(function(){
+      jQuery(document).foundation();
+      console.log(97"loaded");
+    });
+    console.log("loaded99");
+  </script>
+
+  </div>
+
