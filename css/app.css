@@ -161,12 +161,13 @@ body {
   z-index: 9; }
   .bannertext1 span {
     font-family: Belleza;
-    background: rgba(0, 0, 0, 0.59);
-    color: white;
+    background:rgba(255, 255, 255, 0.78);
+	box-shadow:3px 3px #222222;
+    color: #222222;
     font-size: 48px;
     padding: 4px 10px 4px 10px; }
   .bannertext1 a {
-    margin-top: 8px; }
+    margin-top: 18px; }
 
 .bannertext2 {
   text-align: center;
@@ -176,12 +177,13 @@ body {
   z-index: 9; }
   .bannertext2 span {
     font-family: Belleza;
-    background: rgba(0, 0, 0, 0.59);
-    color: white;
+    background: rgba(255, 255, 255, 0.78);
+    color: #222222;
+	box-shadow:3px 3px #222222;
     font-size: 32px;
     padding: 4px 10px 4px 10px; }
   .bannertext2 a {
-    margin-top: 8px; }
+    margin-top: 18px; }
 
 .packagewrap {
   padding: 40px 0 60px 0; }
