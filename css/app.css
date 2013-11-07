@@ -309,7 +309,7 @@ ul#main-menu {
 .animateBlack {
   animation: toBlack 1s;
   -webkit-animation: toBlack 1s;
-  background: #222222; }
+  background: #2795b6; }
 
 .animateTransparent {
   animation: toBlack 1s reverse;
@@ -321,14 +321,14 @@ ul#main-menu {
     background: rgba(0, 0, 0, 0.31); }
 
   to {
-    background: #222222; } }
+    background: #2795b6; } }
 
 @-webkit-keyframes toBlack {
   from {
     background: rgba(0, 0, 0, 0.31); }
 
   to {
-    background: #222222; } }
+    background: #2795b6; } }
 
 .orbit-timer {
   display: none !important; }
